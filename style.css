@@ -18,11 +18,11 @@
 
 .navigasi-hover:hover {
   background-color: #503a32;
-  transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -110,8 +110,8 @@
 
 .github {
   font-size: 1000%;
-  color:#ebe2cf;
-  background-color:#70564d;
+  color: #ebe2cf;
+  background-color: #70564d;
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -134,25 +134,27 @@
 }
 
 .github:hover {
-  color:#503a32;
+  color: #503a32;
   background-color: #ebe2cf;
 }
 
 .contact {
-  padding-left: 10%;
-  padding-right: 10%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #ebe2cf;
 }
 
 .contact-h1 {
   font-family: "Poppins", sans-serif;
-  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .contact-content {
+  padding-left: 10%;
+  padding-right: 10%;
   font-family: "Poppins", sans-serif;
   width: 80%;
   padding: 30px;
@@ -183,7 +185,6 @@
   font-family: "Poppins", sans-serif;
   text-align: center;
   padding-top: 20px;
-  /* background-color: aliceblue; */
 }
 
 .footer-b {
@@ -197,7 +198,7 @@
   text-align: center;
 }
 
-.footer-brand{
+.footer-brand {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -206,9 +207,41 @@
 .brand {
   color: #ebe2cf;
   font-size: 150%;
-  /* background-color: white; */
 }
 
 .brand:hover {
   color: #979185;
+}
+
+.gallery-h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 5%;
+}
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.image-gallery {
+  height: auto;
+  width: 20%;
+  margin: 2%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .image-gallery {
+    width: 40%;
+  }
 }
