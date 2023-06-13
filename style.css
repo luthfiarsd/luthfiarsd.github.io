@@ -10,13 +10,17 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.warnafont1:hover {
+  color: #979185;
+}
+
 .navigasi-fontsekunder {
   font-family: "Nunito", sans-serif;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.navigasi-hover:hover {
+.navigasi-fontsekunder:hover {
   background-color: #503a32;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -34,13 +38,16 @@
   color: #ebe2cf;
 }
 
+.intro {
+  background-color: #ebe2cf;
+}
+
 .intro-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 100px;
-  background-color: #ebe2cf;
 }
 
 .intro-image {
@@ -88,7 +95,7 @@
 }
 
 .about-h1 {
-  text-align: right;
+  text-align: left;
   font-family: "Poppins", sans-serif;
 }
 
@@ -101,41 +108,72 @@
   background-color: #ebe2cf;
 }
 
+.portfolio-h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
 .portfolio-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
+  margin-bottom: 50px;
 }
 
-.github {
-  font-size: 1000%;
-  color: #ebe2cf;
-  background-color: #70564d;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
-  padding: 20px;
-}
-
-@media screen and (max-width: 500px) {
-  .github {
-    margin-bottom: 50px;
-  }
-}
-
-.portfolio-text {
-  text-align: justify;
+.portfolio-box p {
+  text-align: center;
   font-family: "Poppins", sans-serif;
-  max-width: 75%;
+  padding-left: 10%;
+  padding-right: 10%;
   font-size: larger;
 }
 
-.github:hover {
-  color: #503a32;
-  background-color: #ebe2cf;
+.portfolio-button {
+  font-size: 1000%;
+  color: #70564d;
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio-box p {
+    text-align: justify;
+  }
+}
+
+.portfolio-button:hover {
+  color: #43312a;
+}
+
+.gallery-h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 5%;
+}
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.image-gallery {
+  height: auto;
+  width: 20%;
+  margin: 2%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .image-gallery {
+    width: 40%;
+  }
 }
 
 .contact {
@@ -193,6 +231,10 @@
   text-decoration: none;
 }
 
+.footer-b:hover {
+  color: #979185;
+}
+
 .footer-logo {
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -211,37 +253,4 @@
 
 .brand:hover {
   color: #979185;
-}
-
-.gallery-h1 {
-  display: flex;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 5%;
-}
-
-.gallery-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-}
-
-.image-gallery {
-  height: auto;
-  width: 20%;
-  margin: 2%;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
-
-@media screen and (max-width: 500px) {
-  .image-gallery {
-    width: 40%;
-  }
 }
