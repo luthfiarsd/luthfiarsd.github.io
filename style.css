@@ -39,7 +39,7 @@
 }
 
 .intro {
-  background-image: url(Photo/brandon-atchison-EeJXpoWTk2U-unsplash.jpg);
+  background-image: url(Photo/juli-kosolapova-Us_dv71f1bc-unsplash.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -97,6 +97,10 @@
   margin-bottom: 50px;
 }
 
+.about-bg {
+  background-color: #ebe2cf;
+}
+
 .about-h1 {
   text-align: left;
   font-family: "Poppins", sans-serif;
@@ -122,22 +126,17 @@
 }
 
 @media screen and (max-width: 640px) {
-  .about-p {
-    text-align: left;
+  .about-h1 {
+    padding-top: 5%;
   }
   .about-brand {
     width: 100%;
   }
 }
 
-.portfolio {
-  background-color: #ebe2cf;
-}
-
 .portfolio-h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  background-color: #ebe2cf;
   margin-bottom: 30px;
 }
 
@@ -195,7 +194,9 @@
   }
 }
 
-/* WEJOFEOLFANJFASFWEJFLFALJGFJLAJFEWJLFAWLAWJLFJWE */
+.gallery-bg {
+  background-color: #ebe2cf;
+}
 
 .gallery-h1 {
   display: flex;
@@ -228,10 +229,6 @@
   .image-gallery {
     width: 40%;
   }
-}
-
-.contact {
-  background-color: #ebe2cf;
 }
 
 .contact-box {
