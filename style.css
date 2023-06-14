@@ -80,6 +80,12 @@
   font-size: larger;
 }
 
+@media screen and (max-width: 640px) {
+  .intro-text {
+    margin-bottom: 50px;
+  }
+}
+
 .intro-h2 {
   font-family: "Poppins", sans-serif;
   padding: 10px;
