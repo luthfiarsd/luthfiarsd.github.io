@@ -39,7 +39,9 @@
 }
 
 .intro {
-  background-color: #ebe2cf;
+  background-image: url(Photo/brandon-atchison-EeJXpoWTk2U-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .intro-content {
